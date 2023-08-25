@@ -12,6 +12,7 @@ Ideas:
 import { saveSettingsDebounced, getRequestHeaders } from "../../../script.js";
 import { getContext, extension_settings, ModuleWorkerWrapper } from "../../extensions.js";
 import { isDataURL } from "../../utils.js";
+import "./blip.js"
 export { MODULE_NAME };
 
 const extensionName = "audio";

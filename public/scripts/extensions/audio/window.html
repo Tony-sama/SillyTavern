@@ -48,6 +48,16 @@
                     <label for="audio_bgm_cooldown">Music update cooldown (in seconds)</label>
                     <input id="audio_bgm_cooldown" class="text_pole wide30p">
                 </div>
+                <div>
+                    <label for="audio_blip_volume_slider">Blip <span id="audio_blip_volume"></span></label>
+                    <div class="mixer-div">
+                        <div id="audio_blip_mute" class="menu_button audio-mute-button">
+                            <i class="fa-solid fa-volume-high fa-lg" id="audio_blip_mute_icon"></i>
+                        </div>
+                        <input type="range" class ="slider" id ="audio_blip_volume_slider" value = "0" maxlength ="100">
+                    </div>
+                    <audio id="audio_blip" controls src="assets/blip/default_blip.ogg">
+                </div>
             </div>
             <div>
                 <b>Hint:</b>
